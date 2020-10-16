@@ -9,71 +9,71 @@
       </svg>
     </div>
     <div class="footEnd">
-    <div class="links">
-      <table>
-        <tr>
-          <th>
-            <h4>Features</h4>
-          </th>
-        </tr>
-        <tr>
-          <td><a>Link Shortening</a></td>
-        </tr>
-        <tr>
-          <td><a>Branded Links</a></td>
-        </tr>
-        <tr>
-          <td><a>Analytics</a></td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <h4>Resources</h4>
-          </th>
-        </tr>
-        <tr>
-          <td><a>Blog</a></td>
-        </tr>
-        <tr>
-          <td><a>Developers</a></td>
-        </tr>
-        <tr>
-          <td><a>Support</a></td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <th>
-            <h4>Company</h4>
-          </th>
-        </tr>
-        <tr>
-          <td><a>About</a></td>
-        </tr>
-        <tr>
-          <td><a>Our Team</a></td>
-        </tr>
-        <tr>
-          <td><a>Careers</a></td>
-        </tr>
-        <tr>
-          <td><a>Contact</a></td>
-        </tr>
-      </table>
-      <div class="socMedia">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-pinterest"></i>
-        <i class="fab fa-instagram"></i>
-      </div>
+      <div class="links">
+        <table>
+          <tr>
+            <th>
+              <h4>Features</h4>
+            </th>
+          </tr>
+          <tr>
+            <td><a>Link Shortening</a></td>
+          </tr>
+          <tr>
+            <td><a>Branded Links</a></td>
+          </tr>
+          <tr>
+            <td><a>Analytics</a></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>
+              <h4>Resources</h4>
+            </th>
+          </tr>
+          <tr>
+            <td><a>Blog</a></td>
+          </tr>
+          <tr>
+            <td><a>Developers</a></td>
+          </tr>
+          <tr>
+            <td><a>Support</a></td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>
+              <h4>Company</h4>
+            </th>
+          </tr>
+          <tr>
+            <td><a>About</a></td>
+          </tr>
+          <tr>
+            <td><a>Our Team</a></td>
+          </tr>
+          <tr>
+            <td><a>Careers</a></td>
+          </tr>
+          <tr>
+            <td><a>Contact</a></td>
+          </tr>
+        </table>
+        <div class="socMedia">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  export default {}
+export default {};
 </script>
 
 <style scoped>

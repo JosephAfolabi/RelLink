@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="foot>
     <div class="logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
         <path

@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: "/ArchStudio/",
+  publicPath: "/RelLink/",
   pages: {
     index: {
       // entry for the page
@@ -10,4 +10,5 @@ module.exports = {
       filename: "index.html",
       title: "Home",
     }
-    }
+  }
+}

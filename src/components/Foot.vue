@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div>
+    <div class="logo">
       <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
         <path
           fill="#34313D"
@@ -8,5 +8,131 @@
         />
       </svg>
     </div>
+    <div class="footEnd">
+    <div class="links">
+      <table>
+        <tr>
+          <th>
+            <h4>Features</h4>
+          </th>
+        </tr>
+        <tr>
+          <td><a>Link Shortening</a></td>
+        </tr>
+        <tr>
+          <td><a>Branded Links</a></td>
+        </tr>
+        <tr>
+          <td><a>Analytics</a></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>
+            <h4>Resources</h4>
+          </th>
+        </tr>
+        <tr>
+          <td><a>Blog</a></td>
+        </tr>
+        <tr>
+          <td><a>Developers</a></td>
+        </tr>
+        <tr>
+          <td><a>Support</a></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th>
+            <h4>Company</h4>
+          </th>
+        </tr>
+        <tr>
+          <td><a>About</a></td>
+        </tr>
+        <tr>
+          <td><a>Our Team</a></td>
+        </tr>
+        <tr>
+          <td><a>Careers</a></td>
+        </tr>
+        <tr>
+          <td><a>Contact</a></td>
+        </tr>
+      </table>
+      <div class="socMedia">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      </div>
+    </div>
   </section>
 </template>
+
+<script>
+  export default {}
+</script>
+
+<style scoped>
+    font-size: 20px;
+}
+.foot {
+  background: hsl(260, 8%, 14%);
+  padding: 4rem 2rem;
+  overflow: hidden;
+}
+.foot .links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20px);
+}
+table {
+  margin-bottom: 20px;
+  width: 120px;
+  text-align: left;
+  grid-column: span 9;
+  transform: translateY(-28px);
+}
+th {
+  line-height: 70px;
+}
+td {
+  line-height: 40px;
+}
+.fab {
+  font-size: 28px;
+}
+.footEnd .links {
+  width: 740px;
+  transform: translateY(-37px);
+  float: right;
+}
+.socMedia {
+  grid-column: span 10;
+  letter-spacing: 10px;
+}
+@media screen and (max-width: 1023px) {
+  .footEnd,
+  .foot .links {
+    display: block;
+    width: 100%;
+    transform: translateY(0);
+  }
+  .logo {
+    display: block;
+    transform: translateX(calc(50% - 60px));
+    margin-bottom: 10px;
+  }
+  table {
+    width: 100%;
+    text-align: center;
+    transform: translateY(0);
+  }
+  .socMedia {
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+</style>

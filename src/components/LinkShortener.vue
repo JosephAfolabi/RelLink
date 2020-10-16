@@ -1,38 +1,38 @@
 <template>
-<div class="lkShtnr" :style="style">
-  <div class="linkInputBox" ref="linkInputBox">
-    <input v-model="link" placeholder="Shorten a link here…" />
-    <a @click="shortenLink">Shorten It!</a>
-  </div>
-  <template v-for="x in short">
-    <div class="linkCard">
-      <div class="oriLink">
-        {{x.ori}}
-      </div>
-      <div class="linkCardEnd">
-        <a class="copyBtn" @click="copyToClipboard(x.link)">Copy</a>
-        <span class="sLink">{{x.link}}</span>
-      </div>
+  <div class="lkShtnr" :style="style">
+    <div class="linkInputBox" ref="linkInputBox">
+      <input v-model="link" placeholder="Shorten a link here…" />
+      <a @click="shortenLink">Shorten It!</a>
     </div>
-  </template>
-</div>
+    <template v-for="x in short">
+      <div class="linkCard">
+        <div class="oriLink">
+          {{ x.ori }}
+        </div>
+        <div class="linkCardEnd">
+          <a class="copyBtn" @click="copyToClipboard(x.link)">Copy</a>
+          <span class="sLink">{{ x.link }}</span>
+        </div>
+      </div>
+    </template>
+  </div>
 </template>
 
 <script>
-  export default {
+export default {
   data() {
     return {
       short: [],
       link: "",
-      linkInputBoxHeight: 0
+      linkInputBoxHeight: 0,
     };
   },
   watch: {
     short(val) {
       window.localStorage.setItem("links", JSON.stringify(this.short));
-    }
+    },
   },
-  methods:{
+  methods: {
     remDup(arr) {
       return arr.filter((v, i, a) => a.findIndex((t) => t.ori === v.ori) === i);
     },
@@ -49,12 +49,12 @@
         method: "POST",
         headers: {
           Authorization: "Bearer " + tkn,
-          "Content-Type": "application/json"
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           long_url: this.addHttps(this.link),
-          domain: "bit.ly"
-        })
+          domain: "bit.ly",
+        }),
       })
         .then((response) => response.json())
         .then((data) => {
@@ -74,7 +74,7 @@
     },
     getLinkInputBoxHeight() {
       this.linkInputBoxHeight = this.$refs.linkInputBox.clientHeight;
-    }
+    },
   },
   mounted() {
     window.addEventListener("load", () => {
@@ -90,14 +90,14 @@
   computed: {
     style() {
       return "transform: translateY(-" + this.linkInputBoxHeight / 2 + "px)";
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
-.lkShtnr{
-  width:100%;
+.lkShtnr {
+  width: 100%;
 }
 .linkInputBox {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/shortenBg-dk.svg"),

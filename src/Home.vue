@@ -1,4 +1,5 @@
 <template>
+<div>
   <Navbar></Navbar>
   <section id="intro">
     <div id="text">
@@ -422,6 +423,7 @@
     </div>
   </section>
   <Foot></Foot>
+  </div>
 </template>
 
 <script>

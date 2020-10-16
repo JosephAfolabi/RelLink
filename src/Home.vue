@@ -428,10 +428,11 @@
 import Navbar from "./components/Navbar";
 import Foot from "./components/Foot";
 export default {
-  components:{
-  Navbar, Foot
-}
-}
+  components: {
+    Navbar,
+    Foot,
+  },
+};
 </script>
 
 <style scoped>

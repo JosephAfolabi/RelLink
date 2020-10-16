@@ -62,10 +62,10 @@
           </tr>
         </table>
         <div class="socMedia">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-pinterest"></i>
-          <i class="fab fa-instagram"></i>
+          <FontAwesomeIcon :icon="['fab', 'facebook-square']" />
+          <FontAwesomeIcon :icon="['fab', 'twitter']" />
+          <FontAwesomeIcon :icon="['fab', 'pinterest']" />
+          <FontAwesomeIcon :icon="['fab', 'instagram']" />
         </div>
       </div>
     </div>
@@ -73,7 +73,22 @@
 </template>
 
 <script>
-export default {};
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faFacebookSquare,
+  faTwitter,
+  faPinterest,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(faFacebookSquare, faTwitter, faPinterest, faInstagram);
+
+export default {
+  components: {
+    FontAwesomeIcon
+  }
+};
 </script>
 
 <style scoped>

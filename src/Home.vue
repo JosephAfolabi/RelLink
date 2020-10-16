@@ -444,6 +444,20 @@ export default {
 </script>
 
 <style scoped>
+
+h1 {
+  font-size: 45px;
+  color: hsl(255, 11%, 22%);
+  line-height: 52px;
+  font-weight: 700;
+}
+p{
+   color: hsl(257, 7%, 63%);
+}
+#intro p {
+  font-size: 22px;
+  line-height: 36px;
+}
 #intro {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

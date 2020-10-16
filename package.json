@@ -11,7 +11,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "latest",
     "@fortawesome/free-brands-svg-icons": "latest",
-    "@fortawesome/vue-fontawesome": "latest",
+    "@fortawesome/vue-fontawesome@2": "latest",
     "@vue/cli-plugin-babel": "4.1.1",
     "vue": "^2.6.11"
   },

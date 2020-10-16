@@ -482,7 +482,7 @@ p {
   margin-top: 29px;
 }
 #workingIllu svg {
-  width: calc(100% + 2rem);
+  width: calc(100%);
 }
 #workingIllu {
   grid-area: col-2;

@@ -1,7 +1,7 @@
 <template>
 <div class="lkShtnr" :style="style">
   <div class="linkInputBox" ref="linkInputBox">
-    <input v-model="link" placeholder="Shorten a link here…"></input>
+    <input v-model="link" placeholder="Shorten a link here…" />
     <a @click="shortenLink">Shorten It!</a>
   </div>
   <template v-for="x in short">

@@ -86,8 +86,8 @@ library.add(faFacebookSquare, faTwitter, faPinterest, faInstagram);
 
 export default {
   components: {
-    FontAwesomeIcon
-  }
+    FontAwesomeIcon,
+  },
 };
 </script>
 

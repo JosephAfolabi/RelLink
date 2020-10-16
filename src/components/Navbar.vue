@@ -21,6 +21,7 @@
         <g fill="hsl(257, 7%, 63%)" fill-rule="evenodd">
           <path d="M0 0h24v3H0zM0 7h24v3H0zM0 14h24v3H0z" />
         </g>
+        </svg>
     </template>
   </div>
 </div>

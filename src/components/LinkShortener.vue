@@ -7,7 +7,7 @@
           v-model="link"
           placeholder="Shorten a link here…"
         />
-        <br />
+        <br /><br />
         <span class="errMes">{{ errMes }}</span>
       </div>
       <a @click="validate">Shorten It!</a>
@@ -149,7 +149,6 @@ export default {
   color: hsl(0, 87%, 67%);
 }
 .errMes {
-  display: block;
   color: hsl(0, 87%, 67%);
 }
 .linkInputBox input.error::placeholder {
@@ -160,7 +159,7 @@ export default {
   background: hsl(180, 66%, 49%);
   border-radius: 6px;
   margin-left: 15px;
-  margin-top: -28px;
+  margin-top: -56px;
   padding: 10px 22px;
   float: right;
   width: 137px;

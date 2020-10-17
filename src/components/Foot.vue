@@ -62,10 +62,18 @@
           </tr>
         </table>
         <div class="socMedia">
-          <FontAwesomeIcon :icon="['fab', 'facebook-square']" />
-          <FontAwesomeIcon :icon="['fab', 'twitter']" />
+           <div style="margin:0">
+          <FontAwesomeIcon :icon="['fab', 'facebook-square']" size="2x" />
+</div>
+<div>
+          <FontAwesomeIcon :icon="['fab', 'twitter']" size="2x"/>
+</div>
+<div>
           <FontAwesomeIcon :icon="['fab', 'pinterest']" />
+</div>
+<div>
           <FontAwesomeIcon :icon="['fab', 'instagram']" />
+</div>
         </div>
       </div>
     </div>
@@ -119,9 +127,6 @@ th {
 td {
   line-height: 40px;
 }
-.fab {
-  font-size: 28px;
-}
 .footEnd .links {
   width: 740px;
   transform: translateY(-37px);
@@ -130,6 +135,10 @@ td {
 .socMedia {
   grid-column: span 10;
   letter-spacing: 10px;
+  font-size: 28px;
+}
+.socMedia div{
+  margin-left: 8px;
 }
 @media screen and (max-width: 1023px) {
   .footEnd,

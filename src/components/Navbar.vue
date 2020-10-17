@@ -49,9 +49,9 @@ export default {
     };
   },
   created() {
-  if (window.innerWidth > 1023) {
-        this.menuActive = true;
-      }
+    if (window.innerWidth > 1023) {
+      this.menuActive = true;
+    }
     window.addEventListener("resize", () => {
       if (window.innerWidth > 1023) {
         this.menuActive = true;

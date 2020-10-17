@@ -62,7 +62,7 @@
           </tr>
         </table>
         <div class="socMedia">
-          <i class="fab fa-facebook-square" style="margin:0"></i>
+          <i class="fab fa-facebook-square" style="margin: 0"></i>
 
           <i class="fab fa-twitter"></i>
 

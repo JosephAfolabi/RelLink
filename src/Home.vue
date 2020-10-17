@@ -431,11 +431,13 @@
     <section id="advStat">
       <div id="lkShrtnr">
         <LinkShortener></LinkShortener>
+        <div class="textWrap">
         <h2>Advanced Statistics</h2>
         <p>
           Track how your links are performing across the web with our advanced
           statistics dashboard.
         </p>
+</div>
         <div id="cardChain">
           <CardChain></CardChain>
         </div>
@@ -530,7 +532,7 @@ h2 {
 #boost {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/boost-dk.svg"),
     hsl(257, 27%, 26%);
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
 }
 #boost h2 {
@@ -562,6 +564,11 @@ h2 {
   #advStat {
     padding: 0 5.6rem 3rem 5.6rem;
   }
+  #advStat .textWrap{
+   width: 70%;
+   display: block;
+   margin: auto;
+}
   #workingIllu svg {
     width: calc(100% + 5.6rem);
   }

@@ -58,7 +58,7 @@ export default {};
   grid-template-columns: repeat(3, minmax(200px, 1fr));
   grid-gap: 1.5rem;
   position: relative;
-  margin: 80px 0;
+  margin: 130px 0 80px 0;
 }
 .adCards::after {
   height: 8px;

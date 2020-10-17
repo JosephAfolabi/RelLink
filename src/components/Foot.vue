@@ -133,7 +133,7 @@ td {
 }
 .socMedia svg {
   display: inline-block;
-  margin-left: 11px;
+  margin-left: 14px;
 }
 @media screen and (max-width: 1023px) {
   .footEnd,

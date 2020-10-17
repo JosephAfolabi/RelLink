@@ -460,7 +460,7 @@ export default {
     Navbar,
     Foot,
     LinkShortener,
-    CardChain
+    CardChain,
   },
 };
 </script>

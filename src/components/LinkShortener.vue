@@ -111,12 +111,12 @@ export default {
 .linkInputBox input::placeholder {
   color: hsl(257, 7%, 63%);
 }
-.error{
+.error {
   border: hsl(0, 87%, 67%) solid 2px;
   color: hsl(0, 87%, 67%);
 }
-.errMes{
-display: block;
+.errMes {
+  display: block;
   color: hsl(0, 87%, 67%);
 }
 .linkInputBox input.error::placeholder {
@@ -127,7 +127,7 @@ display: block;
   background: hsl(180, 66%, 49%);
   border-radius: 6px;
   margin-left: 15px;
-margin-top: -28px;
+  margin-top: -28px;
   padding: 10px 22px;
   float: right;
   width: 137px;

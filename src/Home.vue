@@ -590,7 +590,7 @@ h2 {
     line-height: 75px;
   }
   h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
   #advStat p {
     font-size: 22px;

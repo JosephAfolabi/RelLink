@@ -62,7 +62,7 @@
           </tr>
         </table>
         <div class="socMedia">
-          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-facebook-square" style="margin:0"></i>
 
           <i class="fab fa-twitter"></i>
 
@@ -95,7 +95,7 @@ h4 {
   font-size: 20px;
 }
 a:hover,
-i:hover {
+svg:hover {
   color: hsl(180, 66%, 49%);
 }
 .foot {
@@ -131,7 +131,7 @@ td {
   letter-spacing: 10px;
   font-size: 28px;
 }
-.socMedia span {
+.socMedia svg {
   display: inline-block;
   margin-left: 11px;
 }

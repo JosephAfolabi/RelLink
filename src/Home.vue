@@ -602,6 +602,7 @@ h2 {
   #getStartedBtn {
     font-size: 24px;
     padding: 12px 26px;
+    border-radius: 36px;
   }
   #advStat {
     padding: 0 8rem 4rem 8rem;

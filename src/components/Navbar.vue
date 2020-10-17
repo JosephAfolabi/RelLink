@@ -90,7 +90,12 @@ export default {
   margin-left: auto;
   display: none;
 }
-@media screen and (max-width: 1022px) {
+@media screen and (min-width: 1024px) {
+  .navbar {
+    padding: 24px 8rem;
+  }
+  }
+@media screen and (max-width: 1023px) {
   .navbar {
     padding: 24px 8rem;
   }

@@ -567,7 +567,7 @@ h2 {
   #advStat .textWrap {
     width: 70%;
     display: block;
-    margin: auto;
+    margin: 30px auto 0 auto;
   }
   #workingIllu svg {
     width: calc(100% + 5.6rem);
@@ -581,6 +581,9 @@ h2 {
   }
   #workingIllu {
     width: 40vw;
+  }
+  #workingIllu svg {
+    width: calc(100% + 8rem);
   }
   h1 {
     font-size: 64px;

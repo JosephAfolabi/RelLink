@@ -62,13 +62,12 @@
           </tr>
         </table>
         <div class="socMedia">
-            <i class='fab fa-facebook-square'></i>
-          
-            <i class='fab fa-twitter'></i>
-          
-            <i class='fab fa-pinterest'></i>
-            <i class='fab fa-instagram'></i>
-          
+          <i class="fab fa-facebook-square"></i>
+
+          <i class="fab fa-twitter"></i>
+
+          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-instagram"></i>
         </div>
       </div>
     </div>
@@ -77,7 +76,7 @@
 
 <script>
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
-dom.watch()
+dom.watch();
 import {
   faFacebookSquare,
   faTwitter,
@@ -87,7 +86,6 @@ import {
 
 library.add(faFacebookSquare, faTwitter, faPinterest, faInstagram);
 
-
 export default {};
 </script>
 
@@ -96,7 +94,8 @@ h4 {
   font-weight: 700;
   font-size: 20px;
 }
-a:hover, i:hover{
+a:hover,
+i:hover {
   color: hsl(180, 66%, 49%);
 }
 .foot {

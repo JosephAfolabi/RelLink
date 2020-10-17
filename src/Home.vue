@@ -429,16 +429,19 @@
       </div>
     </section>
     <section id="advStat">
-    <div id="lkShrtnr">
-     <LinkShortener></LinkShortener>
-      <h2>Advanced Statistics</h2>
-      <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
-     <!-- <cardchain></cardchain>-->
-    </div>
-  </section>
-  <section id="boost">
-    <h2>Boost your links today</h2>
-   <a class="btn">Get Started</a>
+      <div id="lkShrtnr">
+        <LinkShortener></LinkShortener>
+        <h2>Advanced Statistics</h2>
+        <p>
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+        <!-- <cardchain></cardchain>-->
+      </div>
+    </section>
+    <section id="boost">
+      <h2>Boost your links today</h2>
+      <a class="btn">Get Started</a>
     </section>
     <Foot></Foot>
   </div>
@@ -453,7 +456,7 @@ export default {
   components: {
     Navbar,
     Foot,
-    LinkShortener
+    LinkShortener,
   },
 };
 </script>

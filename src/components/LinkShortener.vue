@@ -1,8 +1,12 @@
 <template>
   <div class="lkShtnr" :style="style">
     <div class="linkInputBox" ref="linkInputBox">
-      <input v-model="link" placeholder="Shorten a link here…" />
-      <a @click="shortenLink">Shorten It!</a>
+      <div style="display:inline">
+    <input :class="{error: error}" v-model="link" placeholder="Shorten a link here…"></input>
+<br />
+   <span class="errMes">{{errMes}}</span>
+</div>
+    <a @click="validate">Shorten It!</a>
     </div>
     <template v-for="x in short">
       <div class="linkCard">
@@ -176,6 +180,7 @@ export default {
     display: block;
     margin-top: 12px;
     text-align: center;
+    width: 100%;
   }
   .linkCardEnd {
     border-bottom: hsl(0, 0%, 75%) solid 1px;

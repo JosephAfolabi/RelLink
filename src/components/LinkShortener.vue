@@ -101,21 +101,36 @@ export default {
   padding: 20px;
   border-radius: 10px;
 }
+
 .linkInputBox input {
-  width: calc(100% - 160px);
+  width: calc(100% - 155px);
   padding: 10px;
   border-radius: 6px;
-  display: inline-block;
+  float: left;
 }
 .linkInputBox input::placeholder {
   color: hsl(257, 7%, 63%);
+}
+.error{
+  border: hsl(0, 87%, 67%) solid 2px;
+  color: hsl(0, 87%, 67%);
+}
+.errMes{
+display: block;
+  color: hsl(0, 87%, 67%);
+}
+.linkInputBox input.error::placeholder {
+  color: hsl(0, 87%, 67%);
 }
 .linkInputBox a {
   color: #f5f5f5;
   background: hsl(180, 66%, 49%);
   border-radius: 6px;
   margin-left: 15px;
+margin-top: -28px;
   padding: 10px 22px;
+  float: right;
+  width: 137px;
 }
 .linkCard {
   background: #f5f5f5;

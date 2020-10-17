@@ -132,6 +132,7 @@ export default {
   background-size: 100% 100%;
   padding: 20px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .linkInputBox input {

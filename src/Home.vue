@@ -522,8 +522,9 @@ h2 {
   font-weight: 700;
   font-size: 24px;
 }
-#advStat #cardChain {
-  margin-top: 30px;
+#advStat p {
+  display: block;
+  margin-bottom: 30px;
 }
 #boost {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/boost-dk.svg"),

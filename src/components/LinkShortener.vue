@@ -130,7 +130,7 @@ export default {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/shortenBg-dk.svg"),
     hsl(257, 27%, 26%);
   background-size: 100% 100%;
-  padding: 20px;
+  padding: 25px;
   border-radius: 10px;
   overflow: hidden;
   position: relative;

@@ -1,3 +1,4 @@
+<template>
 <div class="adCards">
 <div class="line"></div>
   <div class="adCard">
@@ -28,3 +29,85 @@
     <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
   </div>
 </div>
+</template>
+
+<script>
+  export default {}
+</script>
+
+<style scoped>
+  .adCards{
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+  position: relative;
+  margin: 80px 0;
+}
+.adCards .line{
+  height: 8px;
+  width: 100%;
+  top: calc(50% - 4px);
+  background: #2BD0D0;
+  position: absolute;
+  content: "";
+  z-index: -1;
+}
+.adCard{
+  background: #f5f5f5;
+  padding: 24px;
+  height: 100%;
+}
+.adCard:nth-of-type(2) {
+  transform: translateY(-40px);
+}
+.adCard:nth-of-type(4) {
+  transform: translateY(40px);
+}
+h3{
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: -28px;
+  margin-bottom: 16px;
+  color: hsl(255, 11%, 22%);
+}
+p{
+  color: hsl(257, 7%, 63%);
+}
+.iconCircle{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   width: 86px;
+   height: 86px;
+   border-radius: 50%;
+   background: hsl(257, 27%, 26%);
+  transform: translateY(-68px);
+}
+@media screen and (max-width: 800px) {
+  .adCards {
+    margin:0;
+    margin-top: 45px;
+  grid-template-columns: repeat(1, minmax(200px, 1fr));
+  }
+  .adCards .line {
+    top: 0;
+    left: calc(50% - 4px);
+    height: 100%;
+    width: 8px;
+  }
+  .adCard{
+    margin-top: 60px;
+    height: auto;
+  }
+  .adCard:nth-of-type(4) {
+    transform: translateY(0);
+  }
+  .adCard:nth-of-type(2) {
+    margin: 0;
+    transform: translateY(0);
+  }
+  .iconCircle{
+    margin: auto;
+  }
+}
+</style>

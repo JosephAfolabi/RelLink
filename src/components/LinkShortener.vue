@@ -1,12 +1,16 @@
 <template>
   <div class="lkShtnr" :style="style">
     <div class="linkInputBox" ref="linkInputBox">
-      <div style="display:inline">
-    <input :class="{error: error}" v-model="link" placeholder="Shorten a link here…" />
-<br />
-   <span class="errMes">{{errMes}}</span>
-</div>
-    <a @click="validate">Shorten It!</a>
+      <div style="display: inline">
+        <input
+          :class="{ error: error }"
+          v-model="link"
+          placeholder="Shorten a link here…"
+        />
+        <br />
+        <span class="errMes">{{ errMes }}</span>
+      </div>
+      <a @click="validate">Shorten It!</a>
     </div>
     <template v-for="x in short">
       <div class="linkCard">
@@ -35,7 +39,7 @@ export default {
       link: "",
       linkInputBoxHeight: 0,
       error: false,
-      errMes: ""
+      errMes: "",
     };
   },
   watch: {
@@ -54,8 +58,8 @@ export default {
       }
       return httpsLink;
     },
-    validate(){
-      if (this.link === ""){
+    validate() {
+      if (this.link === "") {
         this.throwError("Please add a link.");
       } else {
         this.clearError();
@@ -79,7 +83,7 @@ export default {
         .then((data) => {
           var dd = data.description;
           if (typeof dd === "undefined" || dd === null) {
-            this.clearError();  
+            this.clearError();
             this.short.push({ ori: data.long_url, link: data.link });
             this.short = this.remDup(this.short);
           } else {
@@ -87,13 +91,13 @@ export default {
           }
         });
     },
-    throwError(mes){
+    throwError(mes) {
       this.error = true;
       this.errMes = mes;
     },
-    clearError(){
-this.error = false;
-            this.errMes = "";
+    clearError() {
+      this.error = false;
+      this.errMes = "";
     },
     getLinkInputBoxHeight() {
       this.linkInputBoxHeight = this.$refs.linkInputBox.clientHeight;

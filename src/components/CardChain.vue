@@ -102,7 +102,7 @@ p {
 @media screen and (max-width: 800px) {
   .adCards {
     max-width: 450px;
-    margin:0;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;

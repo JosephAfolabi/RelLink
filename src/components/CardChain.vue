@@ -102,7 +102,7 @@ p {
 @media screen and (max-width: 800px) {
   .adCards {
     margin: 0;
-    margin-top: 45px;
+    margin-top: 70px;
     grid-template-columns: repeat(1, minmax(200px, 1fr));
     background: linear-gradient(
       to right,

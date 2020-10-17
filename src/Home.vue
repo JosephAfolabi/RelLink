@@ -497,7 +497,7 @@ p {
   background: hsl(180, 66%, 49%);
   color: #f5f5f5;
   padding: 10px 17px;
-  border-radius: 36px;
+  border-radius: 26px;
   font-weight: 700;
 }
 #intro .btn {
@@ -522,7 +522,7 @@ h2 {
   font-weight: 700;
   font-size: 24px;
 }
-#cardChain {
+#advStat #cardChain {
   margin-top: 30px;
 }
 #boost {

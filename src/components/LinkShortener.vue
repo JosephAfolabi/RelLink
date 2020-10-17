@@ -206,7 +206,7 @@ export default {
     margin: 0;
     padding: 7px;
     display: block;
-    margin-top: 12px;
+    margin-top: 8px;
     text-align: center;
     width: 100%;
   }

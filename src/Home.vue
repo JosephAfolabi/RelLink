@@ -510,8 +510,9 @@ p {
   background: hsl(0, 0%, 90%);
   padding: 0 1rem 1rem 1rem;
 }
-#boost{
-  background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/boost-dk.svg"), hsl(257, 27%, 26%);
+#boost {
+  background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/boost-dk.svg"),
+    hsl(257, 27%, 26%);
   padding: 2rem;
   text-align: center;
 }

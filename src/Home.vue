@@ -511,7 +511,7 @@ p {
   width: 100%;
 }
 #advStat {
-  background: #EFF1F7;
+  background: #eff1f7;
   padding: 0 2rem 2rem 2rem;
 }
 #advStat h2,

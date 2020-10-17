@@ -91,9 +91,9 @@ export default {
   display: none;
 }
 @media screen and (max-width: 1022px) {
-.navbar {
-  padding: 24px 8rem;
-}
+  .navbar {
+    padding: 24px 8rem;
+  }
   .navbar .links {
     position: absolute;
     top: 60px;

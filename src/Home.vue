@@ -494,7 +494,7 @@ p {
   display: inline-block;
   background: hsl(180, 66%, 49%);
   color: #f5f5f5;
-  padding: 5px 11px;
+  padding: 10px 17px;
   border-radius: 20px;
   font-weight: 700;
 }

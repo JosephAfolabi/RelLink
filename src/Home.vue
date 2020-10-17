@@ -540,6 +540,7 @@ h2 {
     margin-top: 20px;
     position: relative;
     margin-bottom: 150px;
+    text-align: center;
   }
   #getStartedBtn {
     position: absolute;

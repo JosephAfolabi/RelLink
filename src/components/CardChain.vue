@@ -74,10 +74,10 @@ export default {};
   padding: 24px;
   height: 100%;
 }
-.adCard:nth-of-type(2) {
+.adCard:nth-of-type(1) {
   transform: translateY(-40px);
 }
-.adCard:nth-of-type(4) {
+.adCard:nth-of-type(3) {
   transform: translateY(40px);
 }
 h3 {
@@ -116,10 +116,10 @@ p {
     margin-top: 60px;
     height: auto;
   }
-  .adCard:nth-of-type(4) {
+  .adCard:nth-of-type(3) {
     transform: translateY(0);
   }
-  .adCard:nth-of-type(2) {
+  .adCard:nth-of-type(1) {
     margin: 0;
     transform: translateY(0);
   }

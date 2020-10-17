@@ -559,8 +559,8 @@ h2 {
   #intro {
     padding: 3rem 5.6rem;
   }
-  #advStat{
-padding: 0 5.6rem 3rem 5.6rem;
+  #advStat {
+    padding: 0 5.6rem 3rem 5.6rem;
   }
   #workingIllu svg {
     width: calc(100% + 5.6rem);
@@ -579,12 +579,12 @@ padding: 0 5.6rem 3rem 5.6rem;
     font-size: 64px;
     line-height: 75px;
   }
-  h2{
-   font-size: 28px;
-}
-#advStat p{
-  font-size: 22px;
-}
+  h2 {
+    font-size: 28px;
+  }
+  #advStat p {
+    font-size: 22px;
+  }
   #intro p {
     font-size: 32px;
     line-height: 43px;

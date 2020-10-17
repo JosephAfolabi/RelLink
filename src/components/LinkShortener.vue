@@ -139,6 +139,7 @@ export default {
   width: calc(100% - 155px);
   padding: 10px;
   border-radius: 6px;
+  margin-top: 5px;
   float: left;
 }
 .linkInputBox input::placeholder {
@@ -159,7 +160,7 @@ export default {
   background: hsl(180, 66%, 49%);
   border-radius: 6px;
   margin-left: 15px;
-  margin-top: -56px;
+  margin-top: -51px;
   padding: 10px 22px;
   float: right;
   width: 137px;

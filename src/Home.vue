@@ -495,7 +495,7 @@ p {
   background: hsl(180, 66%, 49%);
   color: #f5f5f5;
   padding: 10px 17px;
-  border-radius: 20px;
+  border-radius: 25%;
   font-weight: 700;
 }
 #intro .btn {

@@ -458,6 +458,7 @@ export default {
     Navbar,
     Foot,
     LinkShortener,
+    CardChain
   },
 };
 </script>

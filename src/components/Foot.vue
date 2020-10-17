@@ -139,7 +139,7 @@ td {
 }
 .socMedia span {
   display: inline-block;
-  margin-left: 8px;
+  margin-left: 11px;
 }
 @media screen and (max-width: 1023px) {
   .footEnd,

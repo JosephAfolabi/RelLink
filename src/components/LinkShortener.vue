@@ -97,12 +97,11 @@ export default {
 
 <style scoped>
 .lkShtnr {
-  width: calc(100% - 1rem);
+  width: 100%;
 }
 .linkInputBox {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/shortenBg-dk.svg"),
     hsl(257, 27%, 26%);
-  width: 100vw;
   background-size: 100% 100%;
   padding: 20px;
   border-radius: 10px;

@@ -454,6 +454,7 @@ import Navbar from "./components/Navbar";
 import Foot from "./components/Foot";
 import LinkShortener from "./components/LinkShortener";
 import CardChain from "./components/CardChain";
+import CopyBtn from "./components/CopyBtn";
 
 export default {
   components: {
@@ -461,6 +462,7 @@ export default {
     Foot,
     LinkShortener,
     CardChain,
+    CopyBtn
   },
 };
 </script>

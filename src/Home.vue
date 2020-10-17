@@ -575,7 +575,7 @@ h2 {
   #getStartedBtn {
     font-size: 24px;
   }
-  #advStat{
+  #advStat {
     padding: 0 3rem 3rem 3rem;
   }
 }

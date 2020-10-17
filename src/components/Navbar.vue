@@ -53,7 +53,7 @@ export default {
     if (window.innerWidth > 1023) {
       this.menuActive = true;
     }
-    }
+    });
   },
 };
 </script>

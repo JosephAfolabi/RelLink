@@ -94,7 +94,7 @@ export default {
   .navbar {
     padding: 24px 8rem;
   }
-  }
+}
 @media screen and (max-width: 1023px) {
   .navbar {
     padding: 24px 8rem;

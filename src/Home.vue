@@ -437,8 +437,8 @@
           statistics dashboard.
         </p>
         <div id="cardChain">
-        <CardChain></CardChain>
-</div>
+          <CardChain></CardChain>
+        </div>
       </div>
     </section>
     <section id="boost">
@@ -522,8 +522,8 @@ h2 {
   font-weight: 700;
   font-size: 24px;
 }
-#cardChain{
-margin-top:30px;
+#cardChain {
+  margin-top: 30px;
 }
 #boost {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/boost-dk.svg"),

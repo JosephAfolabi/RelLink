@@ -23,8 +23,8 @@ import CopyBtn from "./CopyBtn";
 
 export default {
   components: {
-   CopyBtn
-},
+    CopyBtn,
+  },
   data() {
     return {
       short: [],

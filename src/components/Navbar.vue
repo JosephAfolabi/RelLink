@@ -60,7 +60,7 @@ export default {
 .navbar {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 24px 1rem;
 }
 .navbar .logo {
   margin-right: 10px;
@@ -96,9 +96,6 @@ export default {
   }
 }
 @media screen and (max-width: 1023px) {
-  .navbar {
-    padding: 24px 8rem;
-  }
   .navbar .links {
     position: absolute;
     top: 60px;

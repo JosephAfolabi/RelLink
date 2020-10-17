@@ -436,7 +436,7 @@
           Track how your links are performing across the web with our advanced
           statistics dashboard.
         </p>
-        <!-- <cardchain></cardchain>-->
+        <CardChain></CardChain>
       </div>
     </section>
     <section id="boost">
@@ -451,6 +451,7 @@
 import Navbar from "./components/Navbar";
 import Foot from "./components/Foot";
 import LinkShortener from "./components/LinkShortener";
+import CardChain from "./components/CardChain";
 
 export default {
   components: {

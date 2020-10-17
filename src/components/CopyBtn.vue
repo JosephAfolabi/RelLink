@@ -44,8 +44,8 @@ a {
   background: hsl(180, 66%, 49%);
 }
 
-a:hover{
-opacity: .8;
+a:hover {
+  opacity: 0.8;
 }
 
 .clicked {

@@ -107,9 +107,6 @@ export default {
     window.addEventListener("load", () => {
       this.getLinkInputBoxHeight();
     });
-    window.addEventListener("resize", () => {
-      this.getLinkInputBoxHeight();
-    });
     var ls = JSON.parse(window.localStorage.getItem("links"));
     if (typeof ls === "undefined" || ls === null || ls === "") {
       window.localStorage.setItem("links", "[]");

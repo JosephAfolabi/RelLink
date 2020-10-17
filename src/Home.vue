@@ -510,7 +510,7 @@ p {
 }
 #advStat {
   background: hsl(0, 0%, 90%);
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 2rem 2rem 2rem;
 }
 #advStat h2,
 #advStat p {

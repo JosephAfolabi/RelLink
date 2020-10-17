@@ -77,9 +77,23 @@ export default {
       })
         .then((response) => response.json())
         .then((data) => {
-          this.short.push({ ori: data.long_url, link: data.link });
-          this.short = this.remDup(this.short);
+          var dd = data.description;
+          if (typeof dd === "undefined" || dd === null) {
+            this.clearError();  
+            this.short.push({ ori: data.long_url, link: data.link });
+            this.short = this.remDup(this.short);
+          } else {
+            this.throwError("Invalid link.");
+          }
         });
+    },
+    throwError(mes){
+      this.error = true;
+      this.errMes = mes;
+    },
+    clearError(){
+this.error = false;
+            this.errMes = "";
     },
     getLinkInputBoxHeight() {
       this.linkInputBoxHeight = this.$refs.linkInputBox.clientHeight;

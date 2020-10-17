@@ -34,6 +34,8 @@ export default {
       short: [],
       link: "",
       linkInputBoxHeight: 0,
+      error: false,
+      errMes: ""
     };
   },
   watch: {
@@ -51,6 +53,14 @@ export default {
         httpsLink = "https://" + link;
       }
       return httpsLink;
+    },
+    validate(){
+      if (this.link === ""){
+        this.throwError("Please add a link.");
+      } else {
+        this.clearError();
+        this.shortenLink();
+      }
     },
     shortenLink() {
       var tkn = "e26abcf25fc774a193088e518f0ccdc5f0e9379d";

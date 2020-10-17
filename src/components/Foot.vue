@@ -62,18 +62,13 @@
           </tr>
         </table>
         <div class="socMedia">
-          <span style="margin: 0">
-            <FontAwesomeIcon :icon="['fab', 'facebook-square']" size="2x" />
-          </span>
-          <span>
-            <FontAwesomeIcon :icon="['fab', 'twitter']" size="2x" />
-          </span>
-          <span>
-            <FontAwesomeIcon :icon="['fab', 'pinterest']" size="2x" />
-          </span>
-          <span>
-            <FontAwesomeIcon :icon="['fab', 'instagram']" size="2x" />
-          </span>
+            <i class='fab fa-facebook-square'></i>
+          
+            <i class='fab fa-twitter'></i>
+          
+            <i class='fab fa-pinterest'></i>
+            <i class='fab fa-instagram'></i>
+          
         </div>
       </div>
     </div>
@@ -81,28 +76,28 @@
 </template>
 
 <script>
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { library, dom } from "@fortawesome/fontawesome-svg-core";
+dom.watch()
 import {
   faFacebookSquare,
   faTwitter,
   faPinterest,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(faFacebookSquare, faTwitter, faPinterest, faInstagram);
 
-export default {
-  components: {
-    FontAwesomeIcon,
-  },
-};
+
+export default {};
 </script>
 
 <style scoped>
 h4 {
   font-weight: 700;
   font-size: 20px;
+}
+a:hover, i:hover{
+  color: hsl(180, 66%, 49%);
 }
 .foot {
   background: hsl(260, 8%, 14%);

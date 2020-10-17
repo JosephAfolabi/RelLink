@@ -10,7 +10,7 @@
           {{ x.ori }}
         </div>
         <div class="linkCardEnd">
-          <a class="copyBtn" @click="copyToClipboard(x.link)">Copy</a>
+          <CopyBtn :link="x.link"></CopyBtn>
           <span class="sLink">{{ x.link }}</span>
         </div>
       </div>
@@ -19,7 +19,12 @@
 </template>
 
 <script>
+import CopyBtn from "./CopyBtn";
+
 export default {
+  components: {
+   CopyBtn
+},
   data() {
     return {
       short: [],
@@ -61,16 +66,6 @@ export default {
           this.short.push({ ori: data.long_url, link: data.link });
           this.short = this.remDup(this.short);
         });
-    },
-    copyToClipboard(text) {
-      navigator.clipboard.writeText(text).then(
-        function () {
-          console.log("Async: Copying to clipboard was successful!");
-        },
-        function (err) {
-          console.error("Async: Could not copy text: ", err);
-        }
-      );
     },
     getLinkInputBoxHeight() {
       this.linkInputBoxHeight = this.$refs.linkInputBox.clientHeight;

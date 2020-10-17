@@ -133,6 +133,7 @@ export default {
   padding: 20px;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
 
 .linkInputBox input {
@@ -151,6 +152,8 @@ export default {
 }
 .errMes {
   color: hsl(0, 87%, 67%);
+  position: absolute;
+  left: 25px;
 }
 .linkInputBox input.error::placeholder {
   color: hsl(0, 87%, 67%);

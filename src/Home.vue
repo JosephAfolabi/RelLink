@@ -510,6 +510,13 @@ p {
   background: hsl(0, 0%, 90%);
   padding: 0 1rem 1rem 1rem;
 }
+#advStat h2, #advStat p{
+  text-align: center;
+}
+h2{
+  font-weight: 700;
+  font-size: 24px;
+}
 #boost {
   background: url("https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/boost-dk.svg"),
     hsl(257, 27%, 26%);

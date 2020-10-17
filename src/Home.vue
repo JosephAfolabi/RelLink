@@ -516,7 +516,7 @@ p {
 #boost .btn {
   margin-top: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   #intro {
     grid-template-areas: "col-2" "col-1";
   }

@@ -498,7 +498,7 @@ p {
   display: inline-block;
   background: hsl(180, 66%, 49%);
   color: #f5f5f5;
-  padding: 10px 17px;
+  padding: 10px 20px;
   border-radius: 26px;
   font-weight: 700;
 }
@@ -592,15 +592,19 @@ h2 {
   #advStat p {
     font-size: 22px;
   }
+  #intro{
+   padding: 5rem 8rem;
+}
   #intro p {
     font-size: 32px;
     line-height: 43px;
   }
   #getStartedBtn {
     font-size: 24px;
+    padding: 12px 26px;
   }
   #advStat {
-    padding: 0 3rem 3rem 3rem;
+    padding: 0 8rem 4rem 8rem;
   }
 }
 </style>

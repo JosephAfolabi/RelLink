@@ -1,16 +1,16 @@
 <template>
-<a :class="{clicked: clicked}"@click="copyToClipboard()">{{text}}</a>
+  <a :class="{ clicked: clicked }" @click="copyToClipboard()">{{ text }}</a>
 </template>
 
 <script>
-  export default {
+export default {
   props: {
-link: String
-},
+    link: String,
+  },
   data() {
     return {
       text: "Copy",
-      clicked: false
+      clicked: false,
     };
   },
   methods: {
@@ -26,25 +26,25 @@ link: String
           console.error("Async: Could not copy text: ", err);
         }
       );
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
-  a {
+a {
   color: #f5f5f5;
   padding: 10px 30px;
   border-radius: 6px;
   text-align: center;
   display: inline-block;
-  font-family:Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 18px;
   font-weight: 700;
-    background: hsl(180, 66%, 49%);
+  background: hsl(180, 66%, 49%);
 }
 
-.clicked{
+.clicked {
   background: hsl(257, 27%, 26%);
 }
 </style>

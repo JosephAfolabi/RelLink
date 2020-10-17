@@ -2,7 +2,7 @@
   <div class="lkShtnr" :style="style">
     <div class="linkInputBox" ref="linkInputBox">
       <div style="display:inline">
-    <input :class="{error: error}" v-model="link" placeholder="Shorten a link here…"></input>
+    <input :class="{error: error}" v-model="link" placeholder="Shorten a link here…" />
 <br />
    <span class="errMes">{{errMes}}</span>
 </div>

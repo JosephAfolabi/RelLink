@@ -137,6 +137,7 @@ export default {
 .linkCard .sLink {
   display: inline-block;
   color: hsl(180, 66%, 49%);
+  margin-left: 8px;
 }
 .linkCard .copyBtn {
   background: hsl(180, 66%, 49%);

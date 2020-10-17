@@ -462,7 +462,7 @@ export default {
     Foot,
     LinkShortener,
     CardChain,
-    CopyBtn
+    CopyBtn,
   },
 };
 </script>

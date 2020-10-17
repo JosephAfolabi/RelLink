@@ -138,7 +138,7 @@ td {
   font-size: 28px;
 }
 .socMedia span {
-display: inline-block;
+  display: inline-block;
   margin-left: 8px;
 }
 @media screen and (max-width: 1023px) {

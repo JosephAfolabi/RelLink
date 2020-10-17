@@ -1,6 +1,5 @@
 <template>
   <div class="adCards">
-    <div class="line"></div>
     <div class="adCard">
       <div class="iconCircle">
         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40">
@@ -61,7 +60,7 @@ export default {};
   position: relative;
   margin: 80px 0;
 }
-.adCards .line {
+.adCards::after {
   height: 8px;
   width: 100%;
   top: calc(50% - 4px);
@@ -107,7 +106,7 @@ p {
     margin-top: 45px;
     grid-template-columns: repeat(1, minmax(200px, 1fr));
   }
-  .adCards .line {
+  .adCards::after {
     top: 0;
     left: calc(50% - 4px);
     height: 100%;

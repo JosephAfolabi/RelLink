@@ -592,9 +592,9 @@ h2 {
   #advStat p {
     font-size: 22px;
   }
-  #intro{
-   padding: 5rem 8rem;
-}
+  #intro {
+    padding: 5rem 8rem;
+  }
   #intro p {
     font-size: 32px;
     line-height: 43px;

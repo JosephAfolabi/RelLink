@@ -432,12 +432,12 @@
       <div id="lkShrtnr">
         <LinkShortener></LinkShortener>
         <div class="textWrap">
-        <h2>Advanced Statistics</h2>
-        <p>
-          Track how your links are performing across the web with our advanced
-          statistics dashboard.
-        </p>
-</div>
+          <h2>Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
         <div id="cardChain">
           <CardChain></CardChain>
         </div>
@@ -564,11 +564,11 @@ h2 {
   #advStat {
     padding: 0 5.6rem 3rem 5.6rem;
   }
-  #advStat .textWrap{
-   width: 70%;
-   display: block;
-   margin: auto;
-}
+  #advStat .textWrap {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
   #workingIllu svg {
     width: calc(100% + 5.6rem);
   }

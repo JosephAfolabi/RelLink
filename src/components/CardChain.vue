@@ -59,7 +59,14 @@ export default {};
   grid-gap: 1.5rem;
   position: relative;
   margin: 130px 0 80px 0;
-  background: linear-gradient(to bottom, transparent, transparent calc(50% - 6px), #2BD0D0 calc(50% - 6px), #2BD0D0 calc(50% + 6px), transparent calc(50% + 6px));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    transparent calc(50% - 6px),
+    #2bd0d0 calc(50% - 6px),
+    #2bd0d0 calc(50% + 6px),
+    transparent calc(50% + 6px)
+  );
 }
 .adCard {
   background: #f5f5f5;
@@ -97,7 +104,14 @@ p {
     margin: 0;
     margin-top: 45px;
     grid-template-columns: repeat(1, minmax(200px, 1fr));
-    background: linear-gradient(to right, transparent, transparent calc(50% - 6px), #2BD0D0 calc(50% - 6px), #2BD0D0 calc(50% + 6px), transparent calc(50% + 6px));
+    background: linear-gradient(
+      to right,
+      transparent,
+      transparent calc(50% - 6px),
+      #2bd0d0 calc(50% - 6px),
+      #2bd0d0 calc(50% + 6px),
+      transparent calc(50% + 6px)
+    );
   }
   .adCard {
     margin-top: 60px;

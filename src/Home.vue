@@ -521,6 +521,7 @@ p {
 h2 {
   font-weight: 700;
   font-size: 24px;
+  color: hsl(255, 11%, 22%);
 }
 #advStat p {
   display: block;
@@ -558,6 +559,9 @@ h2 {
   #intro {
     padding: 3rem 5.6rem;
   }
+  #advStat{
+padding: 0 5.6rem 3rem 5.6rem;
+  }
   #workingIllu svg {
     width: calc(100% + 5.6rem);
   }
@@ -575,6 +579,12 @@ h2 {
     font-size: 64px;
     line-height: 75px;
   }
+  h2{
+   font-size: 28px;
+}
+#advStat p{
+  font-size: 22px;
+}
   #intro p {
     font-size: 32px;
     line-height: 43px;

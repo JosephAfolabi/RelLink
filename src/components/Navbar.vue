@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <img class="logo" src="/assets/logo.svg" />
+    <img class="logo" src="https://raw.githubusercontent.com/BerylBucket/RelLink/main/assets/logo.svg" />
     <div v-if="menuActive" class="links">
       <a>Features</a>
       <a>Pricing</a>

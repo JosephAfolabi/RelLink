@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <img src="/assets/logo.svg" />
+    <img class="logo" src="/assets/logo.svg" />
     <div v-if="menuActive" class="links">
       <a>Features</a>
       <a>Pricing</a>

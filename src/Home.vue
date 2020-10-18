@@ -9,7 +9,9 @@
           <a id="getStartedBtn" class="btn">Get Started</a>
         </div>
       </div>
-      <div id="workingIllu"></div>
+      <div id="workingIllu">
+        <img src="../assets/workIllu.svg" />
+      </div>
     </section>
     <section id="advStat">
       <div id="lkShrtnr">

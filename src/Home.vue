@@ -9,9 +9,7 @@
           <a id="getStartedBtn" class="btn">Get Started</a>
         </div>
       </div>
-      <div id="workingIllu">
-      
-      </div>
+      <div id="workingIllu"></div>
     </section>
     <section id="advStat">
       <div id="lkShrtnr">
